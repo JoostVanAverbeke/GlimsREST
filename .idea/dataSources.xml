@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3656448145">
+    <data-source source="LOCAL" name="Rails GlimsREST: development" uuid="186c2d95-15fb-45cb-b0fa-2603b279398d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/GlimsREST_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df98df99dfdadfd8dfc3dfc4dfcedfc6dfcf</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails GlimsREST: test" uuid="dbabe9be-562e-418a-a45e-480cd241294d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/GlimsREST_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df98df99dfdadfd8dfc3dfc4dfcedfc6dfcf</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails GlimsREST: production" uuid="1ffd5ed4-0a13-42b8-acb3-1796628abddd">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/GlimsREST_production</jdbc-url>
+      <user-name>GlimsREST</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfeddfe6dfe3dfe7dff9dff8dfefdff9dffedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
