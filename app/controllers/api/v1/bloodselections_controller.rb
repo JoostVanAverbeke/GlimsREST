@@ -1,6 +1,7 @@
 require 'patient_builder'
 
 class Api::V1::BloodselectionsController < Api::V1::BaseController
+  before_action :find_patient, only: [:index, :show]
   def patients
     respond_to do |format|
       patient_data_set = PatientDataSet.new
@@ -11,4 +12,17 @@ class Api::V1::BloodselectionsController < Api::V1::BaseController
     end
   end
 
+  def index
+
+  end
+
+  def show
+
+  end
+
+  private
+
+  def find_patient
+
+  end
 end
