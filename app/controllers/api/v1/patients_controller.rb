@@ -8,9 +8,13 @@ class Api::V1::PatientsController < Api::V1::BaseController
 
   def show
     respond_to do |format|
-      patient_data_set = PatientDataSet.new
-      patient_data_set.tt_Person << @patient.to_hash
-      format.json { render json: patient_data_set.to_json }
+      if @patient
+        patient_data_set = PatientDataSet.new
+        patient_data_set.tt_Person << @patient.to_hash
+        format.json { render json: patient_data_set.to_json }
+      else
+        format.json { render json: 'Patient does not exist', status: :not_found }
+      end
     end
   end
 

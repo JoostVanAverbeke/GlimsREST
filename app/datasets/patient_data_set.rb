@@ -5,11 +5,11 @@ class PatientDataSet
     @tt_Person = []
   end
 
-  def ds_user
+  def ds_patient
     { dsPatients: {tt_Person: tt_Person } }
   end
 
   def to_json
-    ds_user.to_json
+    ds_patient.to_json
   end
 end

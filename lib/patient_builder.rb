@@ -14,11 +14,12 @@ class PatientBuilder
     @@patients << ziemann
   end
 
-  def self.find(prsn_Id)
+  def self.find(object_id)
     self.build_patients.each do |patient|
-      if patient.prsn_Id == prsn_Id
+      if patient.prsn_Object == object_id
         return patient
       end
     end
+    return nil
   end
 end
