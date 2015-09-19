@@ -52,4 +52,5 @@ RSpec.configure do |config|
 
   #
   config.include ApiHelper, :type => :api
+
 end
